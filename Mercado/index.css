@@ -1,0 +1,158 @@
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.marca {
+  height: 100px;
+}
+.corpo {
+  background-color: rgb(0, 174, 255);
+}
+.papelao {
+  width: 90%;
+  height: 50px;
+  background-color: rgb(0, 174, 255);
+  border: 1px solid black;
+  margin: 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Caixa {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: blue;
+  align-items: center;
+}
+.carrinho {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: rgb(0, 174, 255);
+  height: 50px;
+  display: none;
+}
+.ofertas {
+  width: 350px;
+  border: 10px black solid;
+  border-radius: 25px;
+  height: 710px;
+  background-color: white;
+  margin: 50px;
+}
+.ofertao {
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1px;
+  align-items: center;
+  display: flex;
+}
+.cadastrinho {
+  display: flex;
+  justify-content: center;
+}
+.pesquisa {
+  width: 90%;
+  background-color: rgb(0, 174, 255);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: black;
+}
+.conta {
+  height: 50px;
+  margin: 2px;
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+.logo {
+  background-color: rgb(0, 174, 255);
+  width: 200px;
+}
+
+.banner {
+  width: 100%;
+}
+.imagem {
+  width: 350px;
+}
+.um {
+  width: 40px;
+  height: 40px;
+}
+.dois {
+  width: 50px;
+  height: 40px;
+}
+.hiv {
+  width: 100px;
+}
+.comum {
+  background-color: blue;
+  color: white;
+}
+.especiasl {
+  background-color: yellow;
+  color: black;
+}
+.pezinho {
+  font-size: 20px;
+}
+.bezinho {
+  background-color: blue;
+  width: 200px;
+}
+.invisivel {
+  color: rgb(0, 174, 255);
+  padding-top: 40px;
+}
+.cadastrao {
+  width: 500px;
+  height: 600px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px black solid;
+  border-radius: 25px;
+  margin: 20px;
+}
+.cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 500px;
+}
+.texto {
+  font-size: 20px;
+}
+.pe {
+  margin: 20px;
+}
+.tamanho {
+  height: 80px;
+  width: 120px;
+}
+@media (min-width: 768px) {
+  .marca {
+    height: 200px;
+  }
+  .carrinho {
+    height: 90px;
+    display: block;
+  }
+  .dois {
+    width: 100px;
+    height: 80px;
+  }
+  .ofertao {
+    flex-direction: row;
+  }
+  .conta {
+    display: block;
+  }
+}
